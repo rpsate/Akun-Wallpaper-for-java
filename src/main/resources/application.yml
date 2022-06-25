@@ -1,0 +1,20 @@
+jwt:
+  secret: A63XSekoD6WaateADh1iLH4ezKiLqNfTN8I5furfuE4
+
+md5:
+  salt: A63XSekoD6WaateADh1iLH4ezKiLqNfTN8I5furfuE4
+
+file:
+  upload:
+    path: F:\upload\
+    extension: jpg,jpeg,png,gif
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
